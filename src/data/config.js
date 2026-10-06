@@ -16,3 +16,8 @@ export const siteConfig = {
     facebook: ""   // e.g. "https://facebook.com/saminamarri"
   }
 };
+emailService: {
+  provider: "web3forms",
+  web3formsAccessKey: "aff4d181-05dc-4177-a891-43675bdb4db0", // <-- Yahan apni Key Paste Karein
+  formspreeEndpoint: ""
+}
