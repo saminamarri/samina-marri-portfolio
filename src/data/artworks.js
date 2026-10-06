@@ -1,0 +1,180 @@
+export const artworks = [
+  {
+    id: "the-weaver",
+    title: "The Weaver",
+    category: "Paintings",
+    medium: "Oil on Canvas",
+    year: "2024",
+    dimensions: "48 × 32 in",
+    description: "A woman in vivid magenta and orange traditional dress sits weaving palm-leaf matting beneath a rustic thatched shelter, while a shy child in pale blue stands beside her and cattle rest in the shade. Rendered in textured, expressive brushwork, the painting honors the quiet rhythm of rural craft and everyday life.",
+    statement: "Honoring the quiet rhythm of rural craft, cultural heritage, and everyday life through textured, expressive oil brushwork.",
+    image: "/images/paintings/the-weaver.jpg",
+    featured: true
+  },
+  {
+    id: "the-mat-maker",
+    title: "The Mat Maker",
+    category: "Paintings",
+    medium: "Oil on Canvas",
+    year: "2024",
+    dimensions: "30 × 22 in",
+    description: "A woman in a red embroidered dress and a bright yellow floral shawl bends over a handwoven straw mat, smoothing it in the soft light of a dusty village courtyard. Muted earthy tones and a hazy distance of mud-brick homes and a grazing goat give the scene a calm, timeless feel of rural daily life.",
+    statement: "Capturing the quiet dignity of traditional handcraft, vibrant textile patterns, and the serene warmth of village life.",
+    image: "/images/paintings/the-mat-maker.jpg",
+    featured: true
+  },
+  {
+    id: "embroidered-flame",
+    title: "Embroidered Flame",
+    category: "Mixed Media",
+    medium: "Oil on Canvas",
+    year: "2025",
+    dimensions: "32 × 22 in",
+    description: "An abstract composition of blazing red, orange and cream, energized by bold palette-knife strokes and scattered with embroidery-inspired diamond motifs. A striped woven-style band runs down the right edge, bringing traditional textile patterns into a contemporary, expressive field of color.",
+    statement: "Bridging traditional textile embroidery heritage with bold, modern palette-knife abstraction.",
+    image: "/images/paintings/embroidered-flame.jpg",
+    featured: true
+  },
+  {
+    id: "bardhast",
+    title: "Bardhast",
+    category: "Paintings",
+    medium: "Oil on Canvas",
+    year: "2024",
+    dimensions: "24 × 21 in",
+    description: "A weathered elder in a white turban and olive-green coat raises a tuft of raw fiber between his fingers, his gaze deep in thought against a vast desert and distant mountains. Soft, earthy tones and finely observed lines in the face and hands give the portrait a quiet dignity and a sense of lived experience.",
+    statement: "Honoring quiet endurance, wisdom, and the deep connection between human presence and the desert landscape.",
+    image: "/images/paintings/bardhast.jpg",
+    featured: true
+  },
+  {
+    id: "painting-within-a-painting",
+    title: "Painting Within a Painting",
+    category: "Paintings",
+    medium: "Oil on Canvas",
+    year: "2024",
+    dimensions: "32 × 22 in",
+    description: "Wrapped in an emerald-green embroidered shawl and seen from behind, a woman sits on the floor painting a sunlit village landscape on her canvas. A palette, brushes and a small cup rest beside her, turning a quiet studio moment into a reflection on art, creation and the artist's own world.",
+    statement: "A meta-contemplation on the act of creation, studio introspection, and the quiet intimacy of bringing landscapes to life.",
+    image: "/images/paintings/painting-within-a-painting.jpg",
+    featured: true
+  },
+  {
+    id: "village-pasture",
+    title: "Village Pasture",
+    category: "Paintings",
+    medium: "Oil on Canvas",
+    year: "2024",
+    dimensions: "32 × 22 in",
+    description: "Goats graze across green fields and dry scrub as a lone shepherd walks near distant mud-brick walls, all softened by a wide, hazy sky. The muted palette and open space capture the calm, unhurried pace of village life.",
+    statement: "Capturing the tranquility of open horizon, rural pastoral life, and atmospheric natural light.",
+    image: "/images/paintings/village-pasture.jpg",
+    featured: true
+  },
+  {
+    id: "warmth-of-home",
+    title: "Warmth of Home",
+    category: "Paintings",
+    medium: "Oil on Canvas",
+    year: "2024",
+    dimensions: "24 × 20 in",
+    description: "A woman in a green embroidered shawl bakes fresh flatbread at a clay hearth beside a mud wall, while a child stands watching from the hazy distance. Warm, dusty earth tones and soft light give the scene a gentle, intimate feel of daily household work.",
+    statement: "Celebrating the quiet, nourishing intimacy of domestic rituals and traditional hearth warmth.",
+    image: "/images/paintings/warmth-of-home.jpg",
+    featured: true
+  },
+  {
+    id: "path-of-learning",
+    title: "Path of Learning",
+    category: "Paintings",
+    medium: "Oil on Canvas",
+    year: "2024",
+    dimensions: "32 × 22 in",
+    description: "A young girl in a yellow floral dress and a flowing red shawl walks through a quiet village, carrying a book and a wooden writing board. Soft light, green fields and mud-brick homes frame her journey, celebrating the hope and determination of learning.",
+    statement: "Honoring the quiet resolve, hope, and transformative power of female education in rural communities.",
+    image: "/images/paintings/path-of-learning.jpg",
+    featured: true
+  },
+  {
+    id: "lion-of-the-mountains",
+    title: "Lion of the Mountains",
+    category: "Paintings",
+    medium: "Oil on Canvas",
+    year: "2024",
+    dimensions: "24 × 20 in",
+    description: "A commanding portrait capturing the fierce resilience, quiet wisdom, and timeless dignity of a Baloch elder, rendered in rich, rugged sepia tones.",
+    statement: "Capturing the strength, honor, and unyielding spirit of mountain heritage through monochrome oil tones.",
+    image: "/images/paintings/lion-of-the-mountains.jpg",
+    featured: true
+  },
+  {
+    id: "songs-of-heritage",
+    title: "Songs of Heritage (Nar Sur)",
+    category: "Paintings",
+    medium: "Oil on Canvas",
+    year: "2024",
+    dimensions: "30 × 22 in",
+    description: "A soulful scene depicting three figures resting on an open landscape, immersed in the gentle melodies of a flute played by a young boy. Dressed in traditional attire and turbans, they embody a quiet moment of cultural harmony, storytelling, and peaceful rural life.",
+    statement: "Celebrating oral traditions, folk music melodies, and the peaceful bond of community across generations.",
+    image: "/images/paintings/songs-of-heritage.jpg",
+    featured: true
+  },
+  {
+    id: "dwellings-of-the-mountain",
+    title: "Dwellings of the Mountain (Giddan)",
+    category: "Paintings",
+    medium: "Oil on Canvas",
+    year: "2024",
+    dimensions: "32 × 22 in",
+    description: "A traditional nomadic shelter (Giddan) rests quietly against rugged mountain slopes and sparse desert flora, capturing the timeless rhythm of nomadic life. Soft, earthy hues and grazing animals bring warmth and stillness to the vast, weathered landscape.",
+    statement: "Honoring traditional nomadic architecture, desert landscapes, and the quiet harmony between humanity and nature.",
+    image: "/images/paintings/dwellings-of-the-mountain.jpg",
+    featured: true
+  },
+  {
+    id: "sketch-01",
+    title: "Gestural Contour Study",
+    category: "Sketches",
+    medium: "Charcoal & Graphite on Paper",
+    year: "2025",
+    dimensions: "18 × 24 in",
+    description: "Dynamic linework capturing form, movement, and human emotion through raw, uninhibited charcoal mark-making.",
+    statement: "Line is the most direct bridge between thought and physical visual rhythm.",
+    image: "/images/sketches/sketch-01.svg",
+    featured: true
+  },
+  {
+    id: "print-01",
+    title: "Symmetry & Texture",
+    category: "Printmaking",
+    medium: "Woodcut & Monotype Print",
+    year: "2025",
+    dimensions: "20 × 28 in",
+    description: "Hand-carved woodblock print highlighting texture, rhythm, and traditional relief printing processes.",
+    statement: "Printmaking allows tactile engagement with wood grain, ink density, and mechanical iteration.",
+    image: "/images/printmaking/print-01.svg",
+    featured: true
+  },
+  {
+    id: "sculpture-01",
+    title: "Volumetric Silence",
+    category: "Sculpture",
+    medium: "Terracotta & Mixed Clay",
+    year: "2024",
+    dimensions: "14 × 10 × 18 in",
+    description: "A three-dimensional exploration of organic form, negative space, and earthy tactile surfaces.",
+    statement: "Working in 3D allows the eye to travel around light shadows and physical volume.",
+    image: "/images/sculpture/sculpture-01.svg",
+    featured: true
+  }
+];
+
+export const artworkCategories = [
+  "ALL",
+  "PAINTINGS",
+  "SKETCHES",
+  "PRINTMAKING",
+  "SCULPTURE",
+  "MIXED MEDIA",
+  "OTHER WORKS"
+];

@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+  
+  body {
+    background-color: #0B0B0C;
+    color: #F7F5F0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-serif-heading {
+    font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  }
+}
+
+/* Custom Fine Art Canvas & Border Utilities */
+.canvas-texture {
+  background-image: radial-gradient(rgba(197, 160, 89, 0.06) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.subtle-glow {
+  box-shadow: 0 0 50px -10px rgba(197, 160, 89, 0.15);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #F7F5F0 30%, #C5A059 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-fine {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.border-fine-gold {
+  border: 1px solid rgba(197, 160, 89, 0.25);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0B0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A059;
+}
