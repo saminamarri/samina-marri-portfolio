@@ -14,10 +14,11 @@ export const siteConfig = {
     linkedin: "",  // e.g. "https://linkedin.com/in/saminamarri"
     behance: "",   // e.g. "https://behance.net/saminamarri"
     facebook: ""   // e.g. "https://facebook.com/saminamarri"
+  },
+
+  emailService: {
+    provider: "web3forms",
+    web3formsAccessKey: "aff4d181-05dc-4177-a891-43675bdb4db0",
+    formspreeEndpoint: ""
   }
 };
-emailService: {
-  provider: "web3forms",
-  web3formsAccessKey: "aff4d181-05dc-4177-a891-43675bdb4db0", // <-- Yahan apni Key Paste Karein
-  formspreeEndpoint: ""
-}
